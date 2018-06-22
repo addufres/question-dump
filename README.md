@@ -9,11 +9,13 @@ have users with accounts answer questions
 
 track how many questions users answer to gain credibility
 
-connect to facebook for sign-in as facebook App
+
 
 ## stretch
 
-allow anonymous sign in when asking questions
+connect to facebook for sign-in as facebook App
+
+allow anonymous facebook sign in when asking questions
 
 allow posting questions to facebook
 
