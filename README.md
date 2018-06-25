@@ -1,21 +1,27 @@
-# Question Dump App
+# Question Dump / Journal App
+
+Online collection of questions and user stories. Space for people to put their thoughts online.
+Not necessarily a social media site as I don't have a plan to implement a friend list at this time
+or any way to connect between users. This is more for the more solitary person. Someone who would
+rather sit on their computer and ask just write. Or maybe ask a question, and have someone relate.
+Gives me something to code while I look for a job and firebase seems pretty cool.
 
 Application basic goals
 
-ANDROID APP IS THE GOAL 
+ANDROID APP IS THE GOAL
 
-allow users without accounts to anonymously post questions to board
+allow users without accounts to anonymously post questions/vent to board
 space but let them know they are not able to delete or alter them once posted
 
-allow users with accounts to ask questions to board anonymously
+allow users with accounts to ask questions/vent to board anonymously
 
-have only users with accounts answer questions
+have only users with accounts answer questions/reply to vents
 
 track how many questions users answer and ask to gain credibility
 
-only users with accounts may remove their questions or alter their questions
+only users with accounts may remove their questions or alter their questions/journal entries
 
-
+connect to Google Firebase for backend and authentication
 
 ## stretch
 
