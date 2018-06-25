@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:background="@drawable/lowres2"
         android:layout_height="match_parent"
-        tools:context="com.example.ekene.blogzone.PostActivity">
+        tools:context="com.thedufresnegroup.adufres.qd_androidapp.PostActivity">
 
         <ImageButton
             android:id="@+id/imageBtn"
@@ -49,16 +49,19 @@
             android:textColor="#fff" />
 
         <Button
-            android:layout_marginTop="30dp"
             android:id="@+id/postBtn"
-            android:textColor="#fff"
-            android:textStyle="bold"
-            android:layout_marginRight="5dp"
-            android:layout_marginLeft="5dp"
-            android:background="@drawable/action_button_style"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Post"/>
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/action_button_style"
+            android:text="Post"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold" />
 
     </LinearLayout>
 </ScrollView>
