@@ -47,4 +47,9 @@ layout for single post made (has delete button)
 
 menu for logout and add post button made
 
-basic logic for firebase connection for login and register and post crud 
+basic logic for firebase connection for login and post crud
+
+
+## WHAT WORKS
+
+register users works with firebase authentication WOO FREAKIN HOO did it on mah own bitches!!!!
