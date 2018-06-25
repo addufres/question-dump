@@ -34,3 +34,17 @@ allow posting questions to facebook
 allow posting answer milestones to facebook
 
 add advertising
+
+
+## current working point
+layouts for register and login are made need to decide whether to implement back buttons or allow user to just press back on the phone
+
+layout for profile made
+
+layout for home view of post stream made and ""connected to"" the stream of posts (needs to be tested but need to test auth first)
+
+layout for single post made (has delete button)
+
+menu for logout and add post button made
+
+basic logic for firebase connection for login and register and post crud 
