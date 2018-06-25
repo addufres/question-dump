@@ -10,31 +10,33 @@ Application basic goals
 
 ANDROID APP IS THE GOAL
 
-allow users without accounts to anonymously post questions/vent to board
-space but let them know they are not able to delete or alter them once posted
-
-allow users with accounts to ask questions/vent to board anonymously
-
-have only users with accounts answer questions/reply to vents
-
-track how many questions users answer and ask to gain credibility
-
-only users with accounts may remove their questions or alter their questions/journal entries
-
 connect to Google Firebase for backend and authentication
+
+register and login through Firebase
+
+create user and make posts
+
+show all posts to main page for all users
+
+click one post for detailed view
+
+allow user to update profile
+
+allow user to delete posts they made
 
 ## stretch
 
 connect to facebook for sign-in as facebook App
 
-allow anonymous facebook sign in when asking questions
+allow anonymous facebook sign in when making posts
 
-allow posting questions to facebook
+allow posting posts to facebook
 
-allow posting answer milestones to facebook
+allow posting milestones to facebook
 
 add advertising
 
+track milestones for post making
 
 ## current working point
 layouts for register and login are made need to decide whether to implement back buttons or allow user to just press back on the phone
