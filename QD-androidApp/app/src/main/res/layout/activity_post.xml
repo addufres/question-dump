@@ -20,7 +20,7 @@
             android:layout_height="250dp"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
-            android:src="@drawable/addImage" />
+            android:src="@drawable/addimage" />
         <EditText
             android:layout_marginTop="20dp"
             android:id="@+id/textTitle"

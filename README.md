@@ -38,7 +38,7 @@ add advertising
 
 track milestones for post making
 
-## current working point
+## current views
 layouts for register and login are made need to decide whether to implement back buttons or allow user to just press back on the phone
 
 layout for profile made
@@ -52,6 +52,13 @@ menu for logout and add post button made
 basic logic for firebase connection for login and post crud
 
 
-## WHAT WORKS
+## Current logic point
 
-register users works with firebase authentication WOO FREAKIN HOO did it on mah own bitches!!!!
+register users works with firebase authentication
+login is finicky
+
+create posts works
+
+## Current Backend
+
+users and posts persist with authentication and p/c relationships
