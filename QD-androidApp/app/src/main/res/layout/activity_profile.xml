@@ -6,7 +6,7 @@
     android:layout_margin="10dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/lowres2"
+    android:background="@drawable/space2"
     tools:context="com.thedufresnegroup.adufres.qd_androidapp.ProfileActivity">
 
 

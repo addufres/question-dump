@@ -10,7 +10,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/lowres2"
+        android:background="@drawable/space2"
         android:layout_height="match_parent"
         tools:context="com.thedufresnegroup.adufres.qd_androidapp.PostActivity">
 
@@ -20,7 +20,7 @@
             android:layout_height="250dp"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
-            android:src="@drawable/add_img" />
+            android:src="@drawable/addImage" />
         <EditText
             android:layout_marginTop="20dp"
             android:id="@+id/textTitle"
