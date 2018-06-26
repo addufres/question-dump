@@ -18,7 +18,7 @@ import com.squareup.picasso.Picasso;
 
 public class SinglePostActivity extends AppCompatActivity {
 
-    private ImageView singelImage;
+    private ImageView singleImage;
     private TextView singleTitle, singleDesc;
     String post_key = null;
     private DatabaseReference mDatabase;
@@ -30,10 +30,10 @@ public class SinglePostActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_single_post);
 
-        singelImage = findViewById(R.id.singleImageview);
+        singleImage = findViewById(R.id.singleImageview);
         singleTitle = findViewById(R.id.singleTitle);
         singleDesc = findViewById(R.id.singleDesc);
-        mDatabase = FirebaseDatabase.getInstance().getReference().child("Blogzone");
+        mDatabase = FirebaseDatabase.getInstance().getReference().child("BlogPost");
         post_key = getIntent().getExtras().getString("PostID");
         deleteBtn = findViewById(R.id.deleteBtn);
         mAuth = FirebaseAuth.getInstance();
@@ -60,7 +60,7 @@ public class SinglePostActivity extends AppCompatActivity {
 
                 singleTitle.setText(post_title);
                 singleDesc.setText(post_desc);
-                Picasso.with(SinglePostActivity.this).load(post_image).into(singelImage);
+                Picasso.with(SinglePostActivity.this).load(post_image).into(singleImage);
                 if (mAuth.getCurrentUser().getUid().equals(post_uid)){
 
                     deleteBtn.setVisibility(View.VISIBLE);

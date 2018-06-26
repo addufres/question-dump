@@ -2,8 +2,8 @@ package com.thedufresnegroup.adufres.qd_androidapp;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -20,8 +20,6 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.theartofdev.edmodo.cropper.CropImage;
 import com.theartofdev.edmodo.cropper.CropImageView;
-//import com.theartofdev.edmodo.cropper.CropImage;
-//import com.theartofdev.edmodo.cropper.CropImageView;
 
 public class ProfileActivity extends AppCompatActivity {
 
