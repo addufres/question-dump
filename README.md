@@ -62,3 +62,11 @@ create posts works
 ## Current Backend
 
 users and posts persist with authentication and p/c relationships
+
+
+## Bugs and Nasties
+
+      sizing on message feed is super funky
+##### register needs to be sorted this is a priority
+      login isn't finding known users now that register has broken obviously so fix that too
+      
