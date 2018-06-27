@@ -109,10 +109,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        else if (id == R.id.action_add) {
+        if (id == R.id.action_add) {
             startActivity(new Intent(MainActivity.this, PostActivity.class));
         } else if (id == R.id.logout){
             mAuth.signOut();
